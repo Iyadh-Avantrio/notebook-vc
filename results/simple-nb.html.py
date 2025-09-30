@@ -31,7 +31,7 @@ ax.grid()
 
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
-img=mpimg.imread('bentley-bears.jpeg')
+img=mpimg.imread('../bentley-bears.jpeg')
 plt.imshow(img)
 plt.axis('off')
 plt.colorbar()
